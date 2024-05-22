@@ -1,0 +1,35 @@
+\documentclass[12pt]{article}
+
+\usepackage{assignment-texplate}
+\usepackage[backend=biber,natbib=true,style=authoryear-icomp,maxnames=3,giveninits=true,uniquename=init]{biblatex}
+\usepackage{xurl}
+\usepackage{doi}
+\bibliography{ref.bib}
+
+\input{limao-preamble}
+
+% ===== CHANGE YOUR DETAILS HERE ============================================= %
+
+\newcommand{\authorName}{Limao Chang}
+\newcommand{\studentID}{46978554}
+\newcommand{\assignmentName}{Exploring Thorax and Wing Traits: A Classification Study of Drosophila Species}
+
+% ===== Page title, header, footer setup ===================================== %
+
+\author{\authorName \ -- \studentID}
+\title{\assignmentName}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\assignmentName}
+\rfoot{Page \thepage}
+
+% ===== Formatting =========================================================== %
+
+% Center title
+\renewcommand\maketitlehooka{\null\mbox{}\vfill}
+\renewcommand\maketitlehookd{\vfill\null}
+
+\setlength{\headheight}{15pt}  % Vertical height of header
+
+
